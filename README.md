@@ -1,13 +1,13 @@
-### 🫀 Heart Disease Prediction using Machine Learning (Logistic Regression)
+# 🫀 **Heart Disease Prediction using Machine Learning (Logistic Regression)**
 
 This project predicts the risk of heart disease using a Logistic Regression model. The dataset includes common clinical features used to identify whether a person is likely to develop coronary heart disease (CHD) within 10 years.
 This project was implemented in a Jupyter Notebook with basic exploratory data analysis and model evaluation.
 
-## 📌 Project Overview
+## 📌 **Project Overview**
 
 The goal of this project is to build a simple machine learning model that can classify whether a patient is at risk of heart disease based on several health parameters.
 
-# Steps performed in the notebook:
+## **Steps performed in the notebook:**
 
 - Imported necessary libraries (NumPy, Pandas, Seaborn, Matplotlib, scikit-learn)
 
@@ -27,7 +27,7 @@ The goal of this project is to build a simple machine learning model that can cl
 
 - Visualization using Seaborn heatmap
 
-## 🗂️ Dataset
+## 🗂️ **Dataset**
 
 The dataset used contains attributes like:
 
@@ -51,25 +51,25 @@ The dataset used contains attributes like:
 
 - TenYearCHD (target variable — 1 indicates heart disease risk)
 
-## 🚀 How to Run
-1️⃣ Clone the repository
-
+## 🚀 **How to Run**
+### 1️⃣ **Clone the repository**
+```
 git clone https://github.com/Indhu-Vempatapu/HeartDiseasePrediction.git
-
-
-2️⃣ Install required libraries
+```
+### 2️⃣ **Install required libraries**
+```
 pip install numpy pandas seaborn matplotlib scikit-learn
-
-3️⃣ Open the notebook
+```
+### 3️⃣ **Open the notebook**
 jupyter notebook prediction.ipynb
 
-## 📊 Model Used
+## 📊 **Model Used**
 
 - Logistic Regression (Binary Classification)
 
 Chosen because it is simple, fast, and widely used for medical predictions.
 
-## 🧪 Model Evaluation
+## 🧪 **Model Evaluation**
 
 - Accuracy Score printed in the notebook
 
@@ -77,7 +77,7 @@ Chosen because it is simple, fast, and widely used for medical predictions.
 
 These metrics help understand how well the model detects both positive and negative cases of heart disease.
 
-## 📈 Visualizations Included
+## 📈 **Visualizations Included**
 
 - Count plot of CHD cases
 
@@ -85,7 +85,7 @@ These metrics help understand how well the model detects both positive and negat
 
 - Confusion matrix heatmap
 
-## 🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
 - Python
 
@@ -95,8 +95,8 @@ These metrics help understand how well the model detects both positive and negat
 
 - Matplotlib
 
-Seaborn
+- Seaborn
 
-Scikit-learn
+- Scikit-learn
 
-Jupyter Notebook
+- Jupyter Notebook
